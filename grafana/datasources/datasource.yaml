@@ -1,0 +1,16 @@
+apiVersion: 1
+
+deleteDatasources:
+  - name: Prometheus
+    orgId: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    orgId: 1
+    url: http://clab-escenariofinal-prometheus:9090
+    basicAuth: false
+    isDefault: true
+    version: 1
+    editable: true
+    
